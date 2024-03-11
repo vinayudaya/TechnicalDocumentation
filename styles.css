@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+#navbar ul {
+  border: 2px solid gray;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  overflow: auto;
+  height: 500px;
+  scrollbar-width: 0;
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.nav-item {
+  border: 1px solid gray;
+  list-style: none;
+  padding: 10px 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+section {
+  padding: 1.5rem;
+  text-align: justify;
+  line-height: 150%;
+}
+code {
+  padding-left: 10px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+p {
+  padding: 10px;
+}
+section ul {
+  padding: 0 0 0 50px;
+}
+li {
+  padding: 5px;
+}
+@media (min-width: 780px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #navbar ul {
+    border: 2px solid gray;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    position: fixed;
+    top: 50px;
+    background-color: white;
+    width: 290px;
+    height: 95vh;
+  }
+  #navbar header {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-align: left;
+    position: fixed;
+  }
+  .nav-item {
+    border: 1px solid gray;
+    list-style: none;
+    padding: 10px 20px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  body {
+    display: flex;
+  }
+  #navbar {
+    float: left;
+    width: 290px;
+
+    overflow: auto;
+  }
+  #main-doc {
+    margin-left: 290px;
+  }
+}
