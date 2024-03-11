@@ -75,6 +75,8 @@ li {
     font-weight: 600;
     text-align: left;
     position: fixed;
+    border: 1px solid gray;
+    width: 290px;
   }
   .nav-item {
     border: 1px solid gray;
